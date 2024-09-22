@@ -1,0 +1,79 @@
+.contentQ3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.warning li{
+    list-style: upper-alpha;
+}
+.faturamento{
+    display: flex;
+    width: 80%;
+    height: 70px;
+    overflow: hidden;
+    border: 4px solid red;
+    border-radius: 20px;
+    position: relative;
+}
+.parametro{
+    background-color: white;
+    height: 70px;
+    min-width: 50px;
+}
+.parametro > p{
+    border-bottom: 2px solid black;
+    height: 50%;
+    text-align: center;
+    color: whitesmoke;
+    background-image: radial-gradient(red, rgb(210,0,0));
+}
+.dias{
+    display: flex;
+    overflow: auto;
+    height: 70px;
+}
+.dias::-webkit-scrollbar{
+    display: none;
+}
+.dia{
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dia p{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border: 1px solid black;
+    cursor: default;
+}
+.containerResultados{
+    width: 80%;
+    display: flex;
+    height: 200px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.result{
+    height: 100%;
+    width: 30%;
+    background-image: radial-gradient(red, rgb(210,0,0));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0, .5), inset 0px 2px 3px rgb(0, 0, 0, .5);
+}
+.valor{
+    font-size: 2.5rem;
+    margin-top: 50px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,57 @@
+.contentQ1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.questao1{
+    width: 80%;
+    background-image: radial-gradient(red, rgb(210, 0, 0));
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.697);
+}
+.questao1 code{
+    font-family: monospace;
+    background-color: rgb(213, 213, 213);
+    margin: 0px;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.btnResult{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid red;
+    color: red;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: .5s;
+}
+.btnResult:hover{
+    background-image: radial-gradient(red, rgb(210,0,0));
+    color: whitesmoke;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+}
+.contentQ1 > h2{
+    font-size: 4rem;
+    color: red;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.51);
+    opacity: 0;
+    animation: surgir 2s ease-in forwards;
+}
+@keyframes surgir {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
